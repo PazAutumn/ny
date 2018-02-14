@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.masthead {
+  background-color: yellow;
+  text-align: center;
+  padding: 20px;
+}
+
+.site-container {
+  border-radius: 5em;
+  text-align: center;
+  padding: 40px;
+}
