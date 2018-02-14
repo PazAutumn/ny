@@ -12,7 +12,7 @@ form.addEventListener('submit', function (e) {
 
 function getNews() {
   const articleRequest = new XMLHttpRequest();
-  articleRequest.open('GET', `http://api.nytimes.com/svc/search/v2/articlesearch.json?q=${searchedForText}&api-key=2d3de2e336ac44a7a54bcaa8286fcecf`);
+  articleRequest.open('GET', `https://api.nytimes.com/svc/search/v2/articlesearch.json?q=${searchedForText}&api-key=2d3de2e336ac44a7a54bcaa8286fcecf`);
   articleRequest.onload = addNews;
   articleRequest.onerror = handleError;
   articleRequest.send();
